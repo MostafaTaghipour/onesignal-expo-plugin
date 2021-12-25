@@ -19,7 +19,7 @@
 
 ## 🚧 In Beta 🚧
 ## Overview
-This plugin is an [Expo Config Plugin](https://docs.expo.dev/guides/config-plugins/). It extends the Expo config to allow customizing the prebuild phase of managed workflow builds (no need to eject to a bare workflow). For the purposes of OneSignal integration, the plugin facilitates automatically generating/configuring the necessary native code files needed to get the [OneSignal React-Native SDK](https://github.com/OneSignal/react-native-onesignal) to work. You can think of adding a plugin as adding custom native code.
+This plugin is an [Expo Config Plugin](https://docs.expo.dev/guides/config-plugins/). It extends the Expo config to allow customizing the prebuild phase of managed workflow builds (no need to eject to a bare workflow). For the purposes of OneSignal integration, the plugin facilitates automatically generating/configuring the necessary native code files needed to get the [OneSignal React-Native SDK](https://github.com/MostafaTaghipour/react-native-onesignal) to work. You can think of adding a plugin as adding custom native code.
 
 ## Supported environments:
 * [The Expo run commands](https://docs.expo.dev/workflow/customizing/) (`expo run:[android|ios]`)
@@ -32,7 +32,7 @@ This plugin is an [Expo Config Plugin](https://docs.expo.dev/guides/config-plugi
 
 ```sh
 expo install onesignal-expo-plugin
-yarn add react-native-onesignal
+yarn add https://github.com/MostafaTaghipour/react-native-onesignal
 ```
 
 ## Configuration in app.json / app.config.js
