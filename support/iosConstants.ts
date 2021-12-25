@@ -3,7 +3,7 @@ export const TARGETED_DEVICE_FAMILY = `\"1,2\"`;
 
 export const NSE_PODFILE_SNIPPET = `
 target 'OneSignalNotificationServiceExtension' do
-  pod 'OneSignalXCFramework', '>= 3.0', '< 4.0'
+  pod 'OneSignalXCFramework', :git => 'https://github.com/MostafaTaghipour/OneSignal-iOS-SDK.git'
 end`;
 
 export const NSE_PODFILE_REGEX = /target 'OneSignalNotificationServiceExtension'/;
